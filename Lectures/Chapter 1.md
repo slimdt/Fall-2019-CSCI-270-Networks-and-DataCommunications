@@ -229,7 +229,11 @@ Devices fit together to form a network.
 
 1. IP vs. MAC
 
-![](https://zhangningsau.github.io/office.pdf)
++IP address is not unique.
+
+![](../Resources/ch1-osi4.png)
+
++MAC address is unique.
 
 ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F167531488%2F960x0.jpg%3Ffit%3Dscale)
   
