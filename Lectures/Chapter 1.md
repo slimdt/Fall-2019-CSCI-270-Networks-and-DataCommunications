@@ -176,6 +176,16 @@ Devices fit together to form a network.
      <li>Imagine you are some applicatiom/program to deal with this message. You can be on the PC, server, router or switch...</li>
      <li>Imagine you have multple ports, you get the message from one port and send it through another.</li>
      
+  **Layer 7: Application layer**
+  + Interface between two applications, each on seperate computers.
+  
+  + Protocals:  HTTP, SMTP, POP3, IMAP4, FTP, Telnet, RDP.
+  
+  + Two categories:
+  <l1>Applications for users: browser</li>
+  <li>Applications for operating system</li>
+  
+  **Layer 6: Presentation layer**
   
        
     
