@@ -162,7 +162,7 @@ Devices fit together to form a network.
   ### why multiple layers?
   1. We need a program/application to trasmit data.
   2. The program is complicated.
-  3. Every complicated program should have multiple layers, this is required by software engineering.
+  3. Every complicated program should have multiple layers, this is the principle of software engineering.
   
   #### without OSI layers
   ![OSI example 1](../Resources/ch1-osi1.png)
