@@ -128,10 +128,13 @@ Devices fit together to form a network.
   **compare hubs and switches in CISCO Packet Tracer**
   
   3. Network Port(where you plug your network cable)
+  
     + on motherboard
+    
     ![](https://previews.123rf.com/images/piyaphun/piyaphun1807/piyaphun180700193/106065574-closeup-blue-cable-network-connection-to-a-lan-port-of-a-laptop-on-white-table-concept-computer-conn.jpg)
     
     + on NIC(network interface card)
+    
     ![](https://images-na.ssl-images-amazon.com/images/I/61K44QgZT0L._SX425_.jpg)
     
   4. Router
