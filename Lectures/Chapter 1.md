@@ -182,10 +182,42 @@ Devices fit together to form a network.
   + Protocals:  HTTP, SMTP, POP3, IMAP4, FTP, Telnet, RDP.
   
   + Two categories:
-  <l1>Applications for users: browser</li>
-  <li>Applications for operating system</li>
+  
+    <l1>Applications for users: browser</li>
+    <li>Applications for operating system</li>
   
   **Layer 6: Presentation layer**
+  + responsible for reformatting, compressing, and/or encrypting data 
+  
+  **Layer 5: Session layer**
+  + responsible for describing how data between applications is synced and recovered if messages do not arrive intact with the receiving application.
+  
+  *Note that:* Layer 7,6,5 are so interwined in practice. Usually OS provides the APIs.
+  
+  **Layer 4: transport layer**
+  + Responsible for transporting
+  + Protocals: TCP(transmisson control protocal), UDP(user datagram protocal)
+  + encapsulation: TCP and UDP add their own control information, called **header** to the message from upper layers.
+  
+  **Layer 3: Network layer**
+  + responsible for moving data from one node to another until they reach the destination.
+  + protocal: IP(internet protocal), each node has an IP address.
+  
+  **Layer 2: Data Link Layer**
+  + Responsible for interfacing with physical hardware only on the local network.
+  + Protocals: programmed into the firmware of a computer's NIC and other networking hardware. (Firmware refers to programs embedded in hardware.)
+  + MAC(media access control) address: physical address, layer 2 adds MAC info.
+  
+  **Layer 1: Physical Layer**
+  + responsible for sending bits.
+  
+  **PDU: protocal data unit**: message from one layer to another
+  
+  | OSI Layer(s)      | PDU name | Extremely technical name|
+| ----------- | ----------- |--------|
+| layer 7 <br> layer 7 <br>   layer 7 <br>        | Title       ||
+| Paragraph   | Text        ||
+  
   
        
     
