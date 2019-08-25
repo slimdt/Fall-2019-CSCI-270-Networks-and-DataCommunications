@@ -171,9 +171,9 @@ Devices fit together to form a network.
   ![OSI 2](../Resources/ch1-osi2.png)
   
   Q: How to understand this 7-layer OSI model?
-  A: + A message/transmission is a buffer or a block of memory in some format.
-     + Imagine you are some applicatiom/program to deal with this message. You can be on the PC, server, router or switch...
-     + Imagine you have multple ports, you get the message from one port and send it through another.
+  A: 1.A message/transmission is a buffer or a block of memory in some format.
+     2.Imagine you are some applicatiom/program to deal with this message. You can be on the PC, server, router or switch...
+     3.Imagine you have multple ports, you get the message from one port and send it through another.
      
   
        
