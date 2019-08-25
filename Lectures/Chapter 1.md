@@ -54,7 +54,7 @@ Devices fit together to form a network.
   **domain**: computers/clients controlled by the server
   **AD(active directory)**: the centralized directory database
   **AD DS(domain service)**:: manages clients' getting accesss to server
-  ![client-server example](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1200px-Client-server-model.svg.png)
+  ![client-server example](https://www.onlinecomputertips.com/images/networking/n176.jpg)
      - advantage
       1. user account and password
       2. resources sharing
