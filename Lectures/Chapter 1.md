@@ -215,8 +215,23 @@ Devices fit together to form a network.
   
   | OSI Layer(s)      | PDU name | Extremely technical name|
 | ----------- | ----------- |--------|
-| layer 7 <br> layer 7 <br>   layer 7 <br>        | Title       ||
-| Paragraph   | Text        ||
+| layer 7 Application Layer<br> layer 6 Presentation Layer <br>   layer 5 Session Layer <br>        | payload or data       |L7PDU|
+| layer 4 Transportation Layer   | Segment(TCP)/datagram(UDP)        |L4PDU|
+|layer 3 Network Layer|Packet|L3PDU|
+|layer 2 Data Link Layer|Frame|L3PDU|
+|layer 1 Physical Layer|bit/transmission|L1PDU|
+
+**Summary of 7-layer OSI model**:  
+
+![osi summary](../Resources/ch1-osi3.png)
+
+**Discussion**
+
+1. IP vs. MAC
+
+![](https://zhangningsau.github.io/office.pdf)
+
+![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F167531488%2F960x0.jpg%3Ffit%3Dscale)
   
   
        
