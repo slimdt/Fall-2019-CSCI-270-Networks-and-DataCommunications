@@ -1,4 +1,5 @@
 # CSCI 270 Fall 2019
+# Lecture 1 08/22/2019
 ## Why should we learn this course?
 1. Core courses of CS:
 + Computer Organization and Architecture
@@ -94,8 +95,12 @@ Devices fit together to form a network.
   1. use daily examples
   2. use CISCO Packet Tracer
   [CISCO Packet Tracer: download and training course](https://www.netacad.com/courses/packet-tracer)
+  
   3. imagine you are "there"
   
+# CSCI 270 Fall 2019
+# Lecture 2 08/27/2019
+
   ## Network Hardware
   ### LANs(Local Area Network) and their hardware
   ![LAN example](https://www.learnabhi.com/wp-content/uploads/2018/02/LAN.jpg)
