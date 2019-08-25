@@ -158,15 +158,26 @@ Devices fit together to form a network.
   + The internet is the largest WAN.
   + PAN(personal area network) is the smallest network, which is a network of your own devices.
   
-  ## Seven-layer OSI Model
+  ## Seven-layer OSI(open system interconnection) Model
   ### why multiple layers?
   1. We need a program/application to trasmit data.
   2. The program is complicated.
   3. Every complicated program should have multiple layers, this is required by software engineering.
   
+  #### without OSI layers
   ![OSI example 1](../Resources/ch1-osi1.png)
   
+  #### OSI layers
+  ![OSI 2](../Resources/ch1-osi2.png)
   
+  Q: How to understand this 7-layer OSI model?
+  A: + A message/transmission is a buffer or a block of memory in some format.
+     + Imagine you are some applicatiom/program to deal with this message. You can be on the PC, server, router or switch...
+     + Imagine you have multple ports, you get the message from one port and send it through another.
+     
+  
+       
+    
   
   
     
