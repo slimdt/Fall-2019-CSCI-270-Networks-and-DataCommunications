@@ -148,6 +148,25 @@ Devices fit together to form a network.
   
   ![](https://i.ytimg.com/vi/ZvWn5xBflUs/maxresdefault.jpg)
   
+  ### WAN and MAN
+  
+  **WAN(wide area network)**: a group of LANs that spreads over a wide geographical area.
+  
+  **MAN(metropolitan area network)**: a group of LANs that spreads in the same geographical area.
+  
+  + WAN and MAN/CAN(campus area network) might be used interchangeably.
+  + The internet is the largest WAN.
+  + PAN(personal area network) is the smallest network, which is a network of your own devices.
+  
+  ## Seven-layer OSI Model
+  ### why multiple layers?
+  1. We need a program/application to trasmit data.
+  2. The program is complicated.
+  3. Every complicated program should have multiple layers, this is required by software engineering.
+  
+  ![OSI example 1](../Resources/ch1-osi1.png)
+  
+  
   
   
     
