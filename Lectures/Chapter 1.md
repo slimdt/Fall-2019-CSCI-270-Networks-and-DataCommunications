@@ -237,7 +237,15 @@ Devices fit together to form a network.
 
 ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F167531488%2F960x0.jpg%3Ffit%3Dscale)
   
-  
+2. **Remember this all the time:**
+
++ **PDUs are complete**.(They must be formatted.)
++ **PDUs can contain info from lower levels without info from upper levels.**
++ **PDUs can not contain info from upper levels without info from lower levels.**
+
+
+# Homework assignemnt 1
+[The link is here](https://github.com/ZhangNingSAU/Fall-2019-CSCI-270-Networks-and-DataCommunications/blob/master/Homework/HW1.md)
        
     
   
