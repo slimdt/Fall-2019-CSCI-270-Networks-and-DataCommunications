@@ -103,6 +103,8 @@ Devices fit together to form a network.
 
   ## Network Hardware
   ### LANs(Local Area Network) and their hardware
+  **local**: each node on the network can communicate with each other directly.
+  
   ![LAN example](https://www.learnabhi.com/wp-content/uploads/2018/02/LAN.jpg)
   #### topologies
   **ring topology**(legacy topology, barely used today)![ring](https://cdn.comparitech.com/wp-content/uploads/2018/11/Ring-Topology.jpg)
@@ -116,13 +118,34 @@ Devices fit together to form a network.
   **hybrid topology** ![hybrid](https://1.bp.blogspot.com/-cF4N0TPUg-8/V7HuNumKVII/AAAAAAAAAIg/4ZPBrd67NDo2Jf9B0zrKTfVA7X4dN766ACLcB/s1600/hybrid%2Btopology.png)
   
   #### hardware
-  1. Hub(legacy device)
-  2. Switch
+  1. [Hub](https://en.wikipedia.org/wiki/Ethernet_hub) (legacy device)
   
+    A hub receives signals from one node and repeast those signals to all other connected nodes in a broadcast way.
+    (one to all)
+  2. [Switch](https://en.wikipedia.org/wiki/Network_switch)
+  
+    (one to one)
   **compare hubs and switches in CISCO Packet Tracer**
+  
   3. Network Port(where you plug your network cable)
     + on motherboard
+    ![](https://previews.123rf.com/images/piyaphun/piyaphun1807/piyaphun180700193/106065574-closeup-blue-cable-network-connection-to-a-lan-port-of-a-laptop-on-white-table-concept-computer-conn.jpg)
+    
     + on NIC(network interface card)
+    ![](https://images-na.ssl-images-amazon.com/images/I/61K44QgZT0L._SX425_.jpg)
+    
+  4. Router
+    a device that manages traffic between two or more networks and can find the best path.
+   
+  **switch/hub** vs. **router**
+  
+  + A switch/hub belongs to one LAN.
+  + A router belongs to two or more LANs.
+  
+  ![](https://i.ytimg.com/vi/ZvWn5xBflUs/maxresdefault.jpg)
+  
+  
+  
     
   
   
