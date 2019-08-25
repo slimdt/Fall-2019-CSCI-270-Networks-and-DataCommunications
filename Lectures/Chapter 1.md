@@ -229,11 +229,11 @@ Devices fit together to form a network.
 
 1. IP vs. MAC
 
-+IP address is not unique.
++ IP address is not unique.
 
 ![](../Resources/ch1-osi4.png)
 
-+MAC address is unique.
++ MAC address is unique.
 
 ![](https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F167531488%2F960x0.jpg%3Ffit%3Dscale)
   
@@ -244,7 +244,7 @@ Devices fit together to form a network.
 + **PDUs can not contain info from upper levels without info from lower levels.**
 
 
-# Homework assignemnt 1
+# Homework assignment 1
 [The link is here](https://github.com/ZhangNingSAU/Fall-2019-CSCI-270-Networks-and-DataCommunications/blob/master/Homework/HW1.md)
        
     
