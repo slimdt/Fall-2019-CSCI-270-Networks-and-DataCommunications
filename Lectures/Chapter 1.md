@@ -107,12 +107,18 @@ Devices fit together to form a network.
   
   ![LAN example](https://www.learnabhi.com/wp-content/uploads/2018/02/LAN.jpg)
   #### topologies
+  **bus topology** ![bus](https://cdn.comparitech.com/wp-content/uploads/2018/11/Bus-Topology.jpg)
+  
   **ring topology**(legacy topology, barely used today)![ring](https://cdn.comparitech.com/wp-content/uploads/2018/11/Ring-Topology.jpg)
+  
   **star topology**![star topology](https://2.bp.blogspot.com/-ehAbcPHrS4g/WE183W2IqbI/AAAAAAAAArg/L2-OXyLpLG4bkCq6Oyi5k4adtEdUkbtowCLcB/s1600/Star-topology.png)
+  
+  Note here: Someone claims that it is not a star topology with a hub in the center, because hub will send the received 
+  message to any other devices, which makes it equal to a ring topology.
   
   **mesh topology** ![mesh](https://cdn.comparitech.com/wp-content/uploads/2018/11/Mesh-Topology.jpg)
   
-  **bus topology** ![bus](https://cdn.comparitech.com/wp-content/uploads/2018/11/Bus-Topology.jpg)
+  
   
   
   **hybrid topology** ![hybrid](https://1.bp.blogspot.com/-cF4N0TPUg-8/V7HuNumKVII/AAAAAAAAAIg/4ZPBrd67NDo2Jf9B0zrKTfVA7X4dN766ACLcB/s1600/hybrid%2Btopology.png)
