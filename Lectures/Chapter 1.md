@@ -252,13 +252,79 @@ Devices fit together to form a network.
 
 # Homework assignment 1
 [The link is here](https://github.com/ZhangNingSAU/Fall-2019-CSCI-270-Networks-and-DataCommunications/blob/master/Homework/HW1.md)
-       
+ 
+ 
+ 
+# Safety Procedures and Polices
+Network and computer technicians need to know how to protect themselves as well as protect sensitive electronic components.
+
+## Emergency procedures
+  + Know the best escape route or emergency exit
+## Fire Suppression Systems - have a fire suppression system in the data center that includes:
+  + Emergency alert system
+  + Portable fire extinguishers
+  + Emergency power-off switch
+  + Suppression agent
+## Fail Open or Fail Close - does the security system allow access during a failure (fail open) or deny access during the failure (fail close)
+##  Material Safety Data Sheet (MSDS) - explains how to properly handle substances such as chemical solvents and how to dispose of them
+  + Includes information such as physical data, toxicity, health effects, first aid, storage, shipping, disposal, and spill procedures
+## HVAC Systems
+  + Heating, ventilation, and air conditioning (HVAC) system - controls the environment in a data center, including the temperature, humidity, airflow, and air filtering
+  + HVAC system must provide acceptable temperature and humidity ranges for devices that might overheat or fail due to high humidity
+  + HVAC systems and network cabling often occupy the space above the ceiling or below the floor in a data center(Called the plenum)
+## Protecting Against Static Electricity
+  + Computer components are grounded inside a computer case
+  + Sensitive electronic components can be damaged by electrostatic discharge (ESD)
+  + Static electricity can cause two types of damage:
+    - Catastrophic failure - destroyed beyond use
+    - Upset failure - shorten the life of a component
+  + Before touching a component, ground yourself by:
+    - Wearing an ESD strap around your wrist that clips onto the chassis or computer case
+    - Touching the case before touching any component inside the case
+    - Storing a component inside an antistatic bag
+  + In addition to protecting against ESD, always shut down and unplug a computer before working inside it
+## Installation Safety
+Lifting Heavy Objects - follow these guidelines:
+  + Decide which side of object to face so load is most balanced
+  + Stand close to the object with your feet apart
+  + Keep your back straight, bend knees and grip load
+  + Lift with your legs, arms, and shoulders (not your back or stomach)
+  + Keep the load close to your body and avoid twisting your body while you’re holding it
+  + To put the object down, keep your back as straight as possible and lower object by bending your knees
+  + Rack Installations - switches, routers, servers, and patch panels can be installed in racks
+    - Follow device manufacturer’s guidelines for requirements for the rack and the direction for installation
+  + General directions for safely installing rack-mountable devices:
+    - Engage brakes on rack wheels, if applicable
+    - Wear an ESD strap
+    - Place the device in the rack for good airflow
+    - Device must be well grounded
+    - Pay attention to tools as you work so they don’t accidentally fall into a rack of expensive equipment
+    - Install fan trays so that air flows in the same direction as the fans inside the device
+ ## Electrical and Tool Safety in Data Centers
+ + Electrical and tool safety is generally regulated by OSHA (Occupational Safety and Health Administration)
+ + OSHA guidelines when using power tools:
+    - Wear personal protective equipment (PPE)
+    - Keep all tools in good condition and properly store tools not in use
+    - Use the right tool for the job and operate the tool according to the manufacturer’s instructions
+    - Watch out for trip hazards, so you and others don’t stumble on a tool or cord
     
-  
-  
-    
-  
-  
+# Troubleshooting Network Problems
+## Troubleshooting steps used by most expert networking troubleshooters:
++ Identify problem
+  - Gather information
+  - Identify symptoms
+  - Question users
+  - Determine if anything has changed
++ Establish theory of probable cause
+  - Question the obvious
++ Test theory to determine cause
+  - If theory confirmed, determine next steps
+  - If theory not confirmed, establish new theory or escalate
++ Establish action plan
++ Implement solution or escalate the problem
++ Verify full functionality
+  - Implement preventative measures if applicable
++ Document findings, actions, outcomes
   
 
 
