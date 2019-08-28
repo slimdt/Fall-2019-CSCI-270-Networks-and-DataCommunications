@@ -77,12 +77,13 @@
 ![](../Resources/ch3-classabc.png)
 
 **reserved IP**
+
 |IP address(es)|Function|
 |----|----|
 |255.255.255.255|broadcast,a broadcast message is read by every node on the network|
 |0.0.0.0|currently unassigned|
 |127.0.0.1 to 127.255.255.255|used for research or loopback address(your own computer IP)|
-|169.254.0.1 to 169.254.255.254|used to create an APIPA(automatic private IP addressing) address when a computer configured for DHCP first connects to the network and is unable to lease an IPv4 address from the DHCP server|
+|169.254.0.1 to 169.254.255.254|used to create an APIPA|
 
 ## DHCP(dynamic host configuration protocal)
 + static IP addressing is usually unmanagable.
