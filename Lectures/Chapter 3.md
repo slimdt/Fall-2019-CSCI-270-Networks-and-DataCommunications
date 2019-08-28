@@ -59,13 +59,13 @@
 + IP = network ID(first 16 bits) + host ID(last 16 bits)
 + classful addression(5 classes: class A, class B, class C, class E, and class E)
 
-|Class|Network octets|approximate number of networks|approximate num of IP addresses in each network|
-|----|----|----|----|
-|A|1.x.y.z to 126.x.y.z|126|16 million|
-|B|128.0.x.y to 191.255.x.y|16,000|65,000|
+|Class|Network octets|approximate number of networks|approximate num of IP addresses in each network|usage|
+|----|----|----|----|---|
+|A|1.x.y.z to 126.x.y.z|126|16 million|public|
+|B|128.0.x.y to 191.255.x.y|16,000|65,000|public|
 |C|192.0.0.x to 223.255.255.x|2 million|254|public|
-|D||||
-|E||||
+|D|224.0.0.0 to 239.255.255.255|||multicast|
+|E|240.0.0.0 to 254.255.255.255|||research|
 
 
 |public IP address|private IP address|
@@ -73,5 +73,19 @@
 |on the internet|on private network|
 |class A,B,C|10.0.0.0 to 10.255.255.255<br>172.16.0.0 to 172.31.255.255<br>192.168.0.0 to 192.168.255.255|
 
+**network portion and host porion for class A,B,C**
+![](../Resources/ch3-classabc.png)
+
+**reserved IP**
+|IP address(es)|Function|
+|----|----|
+|255.255.255.255|broadcast,a broadcast message is read by every node on the network|
+|0.0.0.0|currently unassigned|
+|127.0.0.1 to 127.255.255.255|used for research or loopback address(your own computer IP)|
+|169.254.0.1 to 169.254.255.254|used to create an APIPA(automatic private IP addressing) address when a computer configured for DHCP first connects to the network and is unable to lease an IPv4 address from the DHCP server|
+
+## DHCP(dynamic host configuration protocal)
++ static IP addressing is usually unmanagable.
++
 
 
