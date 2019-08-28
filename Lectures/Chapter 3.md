@@ -59,8 +59,8 @@
 + IP = network ID(first 16 bits) + host ID(last 16 bits)
 + classful addression(5 classes: class A, class B, class C, class E, and class E)
 
-|Class|Network octets|approximate number of networks|approximate num of IP addresses in each network||
-|----|----|----|----|----|--|
+|Class|Network octets|approximate number of networks|approximate num of IP addresses in each network|
+|----|----|----|----|----|
 |A|1.x.y.z to 126.x.y.z|126|16 million|
 |B|128.0.x.y to 191.255.x.y|16,000|65,000|
 |C|192.0.0.x to 223.255.255.x|2 million|254|public|
