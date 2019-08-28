@@ -68,4 +68,9 @@
 |E||||
 
 
+|public IP address|private IP address|
+|on the internet|on private network|
+|class A,B,C|10.0.0.0 to 10.255.255.255<br>172.16.0.0 to 172.31.255.255<br>192.168.0.0 to 192.168.255.255|
+
+
 
