@@ -214,10 +214,10 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - is used to verify that TCP/IP is installed, bound to NIC, configured correctly and communicating with the network.
   - uses ICMP(internet control message protocal)
   - sample ping commands
-    + to verify you have the internet access: ping www.google.com (or other famous website)
-    + to verify DNS is working: ping -a 8.8.8.8 (Google's public DNS servers)
-    + to verify TCP/IP service is working: ping 127.0.0.1 or ping localhost
-    + to verify if you can reach a specific IP: ping ip_address
+    + to verify you have the internet access: `ping www.google.com` (or other famous website)
+    + to verify DNS is working: `ping -a 8.8.8.8` (Google's public DNS servers)
+    + to verify TCP/IP service is working: `ping 127.0.0.1` or `ping localhost`
+    + to verify if you can reach a specific IP: `ping ip_address`
  ### ipconfig (only for windows)
   - in Command Prompt window
   - to view and manage the TCP/IP settings
@@ -228,6 +228,6 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - by now, you just need to know the simple `ifconfig` to show the summary of TCP/IP.
  ### nslookup
   - query DNS database from any computer on the network
-  - example: nslookup www.google.com
+  - example: nslookup google.com
 
 
