@@ -226,7 +226,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - in terminal
   - to view and manage the TCP/IP settings and renew DHCP configuration
   - by now, you just need to know the simple `ifconfig` to show the summary of TCP/IP.
- + nslookup
+ ### nslookup
   - query DNS database from any computer on the network
   - example: nslookup www.google.com
 
