@@ -37,7 +37,7 @@
 ## MAC address
 ![](http://haslab.co.uk/images/MAC%20on%20NIC.png)
 + 48 bits/ 6 bytes (for example 00:60:8C:00:54:99)
-+ OUI(organizationally unique identifier): first 24 bits (00:60:8C) and assigned by [IEEE(http://standards.ieee.org/regauth/oui/index.shtml)
++ OUI(organizationally unique identifier): first 24 bits (00:60:8C) and assigned by [IEEE](http://standards.ieee.org/regauth/oui/index.shtml)
 
 + extension identifier/device ID: last 24 bits
 
@@ -49,7 +49,7 @@
   - 32 bits 
   - seperate host ID from network ID (IP address consists of 2 parts, host ID and network ID)
 + DNS server
-  - responsible for traching computer names and their IP addresses
+  - responsible for tracking computer names and their IP addresses
 + You can use *ipconfig* utility in *Command Prompt* window  to find the current TCP/IP settings.
 
 ### IPv4
@@ -102,9 +102,10 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - reserved IP is not static IP, if you set a static IP, you need an IP exclusion on the DHCP server
 + Router can work as a DHCP server
 
-#### Address translation: NAT(network address translation)
-+ The number of public IP address is limited.
-+ A gateway device substitues the privite IP used by a computer with its public IP, this process is called **address translation**
+#### Address translation: 
++ NAT(network address translation)
+  - The number of public IP address is limited.
+  - A gateway device substitues the privite IP used by a computer with its public IP, this process is called **address translation**
 + PAT(port address translation): each session between a local host and an Internet host will be assigned a seperate **port**.
 
 ![](../Resources/ch3-nat.png)
@@ -209,7 +210,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   - DNS server software: BIND(Berkeley Internet Name Domain)
 
  ## Command-line tools for troubleshooting
- + ping(packet internet groper)
+ ### ping(packet internet groper)
   - is used to verify that TCP/IP is installed, bound to NIC, configured correctly and communicating with the network.
   - uses ICMP(internet control message protocal)
   - sample ping commands
@@ -217,11 +218,11 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
     + to verify DNS is working: ping -a 8.8.8.8 (Google's public DNS servers)
     + to verify TCP/IP service is working: ping 127.0.0.1 or ping localhost
     + to verify if you can reach a specific IP: ping ip_address
- + ipconfig (only for windows)
+ ### ipconfig (only for windows)
   - in Command Prompt window
   - to view and manage the TCP/IP settings
   - by now, you just need to know the simple `ipconfig` to show the summary of TCP/IP.
- + ifconfig (for unix and linux)
+ ### ifconfig (for unix and linux)
   - in terminal
   - to view and manage the TCP/IP settings and renew DHCP configuration
   - by now, you just need to know the simple `ifconfig` to show the summary of TCP/IP.
