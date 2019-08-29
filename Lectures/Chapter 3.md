@@ -204,7 +204,7 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
   
   ![](../Resources/ch3-dnsquery.png)
   
-  **Q: The name resolution of www.sau.edu** 
+     + **Q: The name resolution of www.sau.edu** 
   
   - DNS server software: BIND(Berkeley Internet Name Domain)
 
