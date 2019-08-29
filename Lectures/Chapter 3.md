@@ -173,9 +173,10 @@ Note: APIPA(automatic private IP addressing) address is created when a computer 
  ## Domain names and DNS(domain name system)
  + Domain names(www.google.com etc) are convenient for human to remember.
  + For a FQDM(fully qualified domain name/host name + domain name), the last part (com for www.google.com) is called TLD(top-level domain)
+ 
  |TLD|type of organization|
  |----|----|
- |arpa|reserve look-up domain|
+ |arpa|reserve look-up domain(special internet function)|
  |com|commercial|
  |edu|educational|
  |gov|government|
