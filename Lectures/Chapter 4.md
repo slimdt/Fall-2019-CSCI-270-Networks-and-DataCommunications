@@ -6,7 +6,7 @@
 + Employ various TCP/IP utilities for network discovery and troubleshooting
 
 ## TCP/IP core protocols
-|||
+|<!-- --> |<!-- --> |
 |----|----|
 |Layer 7|Application|
 |Layer 6|Presentation|
