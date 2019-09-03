@@ -123,8 +123,9 @@ A layer 3 protocal that
 |Layer|the most important added info|
 |----|----|
 |4|source port and destination port|
-|3|ource IP and destination IP|
-|2|ource MAC and destination MAC|
+|3|source IP and destination IP|
+|2.5|connection between IP and MAC|
+|2|source MAC and destination MAC|
 
 
 
