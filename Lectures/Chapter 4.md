@@ -6,15 +6,8 @@
 + Employ various TCP/IP utilities for network discovery and troubleshooting
 
 ## TCP/IP core protocols
-|| |
-|----|----|
-|Layer 7|Application|
-|Layer 6|Presentation|
-|Layer 5|Session|
-|Layer 4|<span style="color:blue">Transpot</span>|
-|Layer 3|Network|
-|Layer 2|Data Link|
-|Layer 1|Physical|
+
+![](../Resources/layer4.png)
 
 + TCP/IP is a suit of protocols.
 + Including TCP, IP, UDP, ARP...
@@ -35,6 +28,9 @@
   ![](../Resources/ch4-connectdevice.png)
   
 ### TCP(transmission contral protocol): a reliable delivery protocol
+
+![](../Resources/layer4.png)
+
 + connection-oriented 
   - Before TCP transmits data, it ensures that a connection or session is established by a **three-way handshake**.
 + sequencing and checksums:
@@ -62,6 +58,10 @@
   - the random seq# is not real random.
   - the increment of seq# is 1 in the three-way handshake, the increment will be the length of the message after the connection is established.
 ### UPD(user datagram protocol): a unreliable, connectionless protocol
+
+![](../Resources/layer4.png)
+
+
 + **unreliable**: UPD does not guarantee dilievery of data.
 + **connectionless**: no three-way handshake to establish a connection
 + no acknoledgment of transmission
@@ -72,17 +72,63 @@
 
 ![](../Resources/ch4-udp.png)
 
-## IP (internet protocol)
+### IP (internet protocol)
 
-|| |
+![](../Resources/layer3.png)
+
+A layer 3 protocal that
++ identifies the data's source and destination IP addresses.
++ enable TCP/IP to internetwork - to traverse among LANs through routers
++ is a connectionless protocol - no session to be established
+
++ IPv4 packet
+![](../Resources/ch4-ip.png)
++ IPv6 packet
+![](../Resources/ch4-ipv6.png)
+
+### ICMP (internet message control protocol)
+
+![](../Resources/layer3.png)
+
++ a core layer 3 protocol that reports on the sucess of failure of data delievery to the sender, including
+  - when part of the network is congested.
+  - when data fails to reach its destination.
+  - when data has been discared.
+  
++ note that: ICMP does not fix the failure, higher protocols such as TCP is responsible for that.
+
+![](../Resources/ch4-icmp.png)
+
+### ARP(address resolution protocol) on IPv4 networks
+
+![](../Resources/layer2.png)
+
++ discovers MAC address on LAN
++ maintains the ARP table (realation between MAC and IP addresses)
++ sometimes is called layer 2.5 protocol, because it touches IP in layer 3 and MAC in layer 2.
++ ARP can be static (entered manually) or dynamic (created by an ARP request) 
+![](../Resources/ch4-arptable.png)
+
+### Ethernet(address resolution protocol) on IPv4 networks
+
+![](../Resources/layer2.png)
+
++ the most popular network technology on LANs.
++ Ethernet II is the current Ethernent standard.
+![](../Resources/ch4-ethernet.png)
+
++ MTU(maximum transmission units): the maximum payload size that a layer 2 frame can encapsulate.
+
+## Summary
+|Layer|the most important added info|
 |----|----|
-|Layer 7|Application|
-|Layer 6|Presentation|
-|Layer 5|Session|
-|Layer 4|Transpot|
-|Layer 3|**Network**|
-|Layer 2|Data Link|
-|Layer 1|Physical|
+|4|source port and destination port|
+|3|ource IP and destination IP|
+|2|ource MAC and destination MAC|
+
+
+
+
 
 
 
